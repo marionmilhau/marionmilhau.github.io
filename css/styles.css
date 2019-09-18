@@ -46,8 +46,8 @@ p {
 	line-height: 18px;
 }
 
-button:hover {
-	opacity: 50%;
+button {
+	border:none;
 }
 
 button a {
