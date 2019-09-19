@@ -36,6 +36,11 @@ h3 {
 a {
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #faf4eb;
+	letter-spacing: 2px;
+	font-family: 'Karla', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
 }
 
 p {
@@ -46,15 +51,7 @@ p {
 	line-height: 18px;
 }
 
-button {
-	border:0px;
-}
 
-button a {
-	font-family: 'Karla', sans-serif;
-	font-size: 15px;
-	font-weight: 400;
-}
 
 /* header */
 
@@ -115,19 +112,23 @@ button a {
 	text-align: center;
 }
 
-.container-presentation button {
+.button-main {
 	background: #BD6B42;
 	padding: 21px 34px;
-}
-
-.container-presentation button:hover {
-	opacity: 70%;
-	}
-
-.container-presentation button a {
+	margin-top: 40px;
 	color: #faf4eb;
 	letter-spacing: 2px;
+	font-family: 'Karla', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	border: solid 2px #BD6B42;
 }
+
+.button-main:hover {
+	background: #faf4eb;
+	color: #BD6B42;
+}
+
 
 #you{
 	text-align: center;
@@ -167,15 +168,17 @@ button a {
 	text-align: center;
 }
 
-.expert button {
+.expert-button {
 	background: #35322C;
-	padding: 20px 50px;
-	margin: 30px 0px;
+	border: solid 2px black;
+	padding: 18px 20px;
+	margin: 40px 60px 0px 60px;
+	display: block;
 }
 
-.expert button a {
-	color: #faf4eb;
-	letter-spacing: 2px;
+.expert-button:hover {
+	background: #faf4eb;
+	color: #35322C;
 }
 
 .expert p {
@@ -204,21 +207,6 @@ button a {
 	margin: 10px 0px;
 }
 
-.container-projects button {
-	background: #BD6B42;
-	padding: 21px 34px;
-	margin-top: 40px;
-}
-
-.container-projects button:hover {
-	opacity: 70%;
-}
-
-.container-projects button a {
-	color: #faf4eb;
-	letter-spacing: 2px;
-}
-
 /*Hobbies*/
 
 
@@ -244,28 +232,39 @@ button a {
 }
 
 /*contact*/
-.contact {
-	text-align: center;
-}
-
-.container-contact h3 {
-	color:#faf4eb;
-	margin-bottom: 50px;
-}
-
 .container-contact {
 	background: #BD6B42;
-	padding:60px;
+	height:240px;
 	width:100%;
 }
 
-.container-contact button {
-	background: #faf4eb;
-	padding: 21px 34px;
+.contact {
+	text-align: center;
+	margin: 40px 0px;
+	display: flex;
+	justify-content: center;
+
 }
 
-.container-contact button a {
+.contact h3 {
+	color:#faf4eb;
+}
+
+.button-contact {
+	background: #faf4eb;
+	padding: 21px 34px;
+	margin: 40px 0px;
 	color: #35322C;
+	letter-spacing: 2px;
+	font-family: 'Karla', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	border: solid 2px #faf4eb;
+}
+
+.button-contact:hover {
+	background: #BD6B42;
+	color: #faf4eb;
 }
 
 /*footer*/
