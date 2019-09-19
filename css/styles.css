@@ -12,7 +12,7 @@ header {
 h1 {
 	color: #35322C;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: normal;
 	margin:0px;
 	line-height: 30px;
@@ -130,11 +130,6 @@ p {
 }
 
 
-#you{
-	text-align: center;
-	font-weight: bold;
-}
-
 /* photo 1 */
 .photo-max-width-1 {
 	background-image: url('img/desk_1.jpg');
@@ -159,6 +154,11 @@ p {
 
 .introduction p  {
 	margin-bottom: 70px;
+}
+
+#you{
+	text-align: center;
+	font-weight: bold;
 }
 
 /* Expertise */
@@ -296,4 +296,49 @@ footer h3 {
 
 .icon:hover {
 		fill:#8e1b1b;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 600px){
+	header {
+		padding: 0px 40px;
+		margin: 20px
+	}
+
+
+	ul {
+		margin-top:0px;
+	}
+
+	.navigation li {
+			display:flex;
+			flex-direction: column;
+			margin-bottom: 10px;
+	}
+
+	.presentation {
+		margin: 40px 0px 60px 0px;
+	}
+
+	.button-main {
+		margin-bottom: 40px;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+
+	.photo-max-width-1 {
+		margin-top: 60px;
+	}
+
+	.introduction {
+		margin: 40px 45px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+
 }
