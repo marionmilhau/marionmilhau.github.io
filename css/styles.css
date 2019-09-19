@@ -249,10 +249,10 @@ p {
 }
 
 .button-contact {
-	background: #faf4eb;
+	background: #BD6B42;
+	color: #faf4eb;
 	padding: 21px 34px;
 	margin: 40px 0px;
-	color: #35322C;
 	letter-spacing: 2px;
 	font-family: 'Karla', sans-serif;
 	font-size: 15px;
@@ -261,8 +261,8 @@ p {
 }
 
 .button-contact:hover {
-	background: #BD6B42;
-	color: #faf4eb;
+	background: #faf4eb;
+	color: #35322C;
 }
 
 /*footer*/
