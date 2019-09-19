@@ -172,7 +172,7 @@ p {
 	background: #35322C;
 	border: solid 2px black;
 	padding: 18px 20px;
-	margin: 40px 60px 0px 60px;
+	margin: 40px 60px 40px 60px;
 	display: block;
 }
 
@@ -208,8 +208,6 @@ p {
 }
 
 /*Hobbies*/
-
-
 .container-hobbies {
 	margin: 60px 0px;
 }
@@ -236,18 +234,18 @@ p {
 	background: #BD6B42;
 	height:240px;
 	width:100%;
+	display: flex;
+	justify-content: center;
 }
 
 .contact {
 	text-align: center;
 	margin: 40px 0px;
-	display: flex;
-	justify-content: center;
-
 }
 
 .contact h3 {
 	color:#faf4eb;
+	margin-bottom: 50px;
 }
 
 .button-contact {
@@ -288,3 +286,11 @@ footer h3 {
 	text-align: center;
 	padding: 60px 0px 30px 0px;
 }
+
+.social-icon img:hover{
+	fill:#BD6B42
+}
+
+.icon{
+          filter: invert(100%) url(#colorFilter);
+        }
