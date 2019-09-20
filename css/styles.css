@@ -2,16 +2,16 @@ body {
 	background-color: #faf4eb;
 	margin:0px;
 	padding: 0px;
+	font-family: 'Karla', sans-serif;
 }
 
 header {
-	padding: 20px 70px 80px 70px;
+	padding: 20px 70px 30px 70px;
 }
 
 
 h1 {
 	color: #35322C;
-	font-family: 'Quicksand', sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin:0px;
@@ -20,17 +20,30 @@ h1 {
 
 h2 {
 	color: #BD6B42;
-	font-family: 'Karla', sans-serif;
+
 	font-size: 25px;
+   letter-spacing: 0.23px;
+   line-height: 40px;
+   text-align: center;
 	text-transform: uppercase;
 	text-align: center;
+
 	margin: 50px 0px;
 }
 
 h3 {
 	color: #35322C;
 	font-size: 20px;
-	font-family: 'Karla', sans-serif;
+
+}
+
+h4 {
+	color: #35322B;
+	text-transform: uppercase;
+	font-size: 45px;
+  letter-spacing: 0.33px;
+  line-height: 47px;
+  text-align: center;
 }
 
 a {
@@ -38,17 +51,17 @@ a {
 	text-transform: uppercase;
 	color: #faf4eb;
 	letter-spacing: 2px;
-	font-family: 'Karla', sans-serif;
+
 	font-size: 15px;
 	font-weight: 400;
 }
 
 p {
 	color: #35322C;
-	font-family: 'Karla', sans-serif;
-	font-size: 17px;
+
+	font-size: 20px;
 	letter-spacing: 0.5px;
-	line-height: 18px;
+	line-height: 22px;
 }
 
 
@@ -59,13 +72,14 @@ p {
 	background-color: #faf4eb;
 	text-align: left;
 	padding-top: 10px;
+	width: 100%;
 }
 
 .top-nav img {
 	width: 233px;
 	height: 50px;
 	max-width: 100%;
-  	height: auto;
+  height: auto;
 }
 
 .navigation {
@@ -76,40 +90,44 @@ p {
 .navigation li {
 	display:inline-block;
 	margin: 0px 15px;
-	font-family: 'Karla', sans-serif;
-	font-size: 15px;
-	letter-spacing: 2px;
-}
-
-.navigation li a {
-	color: #35322C;
-}
-
-.navigation li a:hover {
-	color: #adadad;
 }
 
 #button-contact {
-	background-color: #8e1b1b;
-	color:#faf4eb;
+	color:#35322C;
 	padding: 10px;
-	border: solid 1px #8e1b1b;
+	border: solid 1px #faf4eb;
 }
 
 #button-contact:hover {
-	color: #8e1b1b;
-	font-weight: 900;
-
-	background-color:#faf4eb;
+	border: solid 1px #8e1b1b;
 }
 
 /* presentation */
-.presentation {
-	margin: 60px 140px 90px 140px;
+.container-presentation {
+	margin: 90px 140px 90px 140px;
 }
 
+.container-presentation img{
+	max-height: 456px;
+  max-width: 350px;
+	margin-left: 60px;
+}
+
+.presentation p{
+	font-size: 20px;
+	letter-spacing: -0.5;
+	color:#BD6B42;
+}
+
+.presentation h1 {
+	font-size: 30px;
+	letter-spacing: -0.5;
+}
+
+
 .button-presentation {
-	text-align: center;
+	margin-top: 60px;
+	text-align: left;
 }
 
 .button-main {
@@ -118,7 +136,7 @@ p {
 	margin-top: 40px;
 	color: #faf4eb;
 	letter-spacing: 2px;
-	font-family: 'Karla', sans-serif;
+
 	font-size: 15px;
 	font-weight: 400;
 	border: solid 2px #BD6B42;
@@ -127,17 +145,6 @@ p {
 .button-main:hover {
 	background: #faf4eb;
 	color: #BD6B42;
-}
-
-
-/* photo 1 */
-.photo-max-width-1 {
-	background-image: url('img/desk_1.jpg');
-}
-
-.photo-max-width-1 img {
-	width: 100%;
-	max-height: 350px;
 }
 
 
@@ -168,33 +175,15 @@ p {
 	text-align: center;
 }
 
-.expert-button {
-	background: #35322C;
-	border: solid 2px black;
-	padding: 18px 20px;
-	margin: 40px 60px 40px 60px;
-	display: block;
-}
-
-.expert-button:hover {
-	background: #faf4eb;
-	color: #35322C;
-}
-
 .expert p {
 	line-height: 26px;
+	margin-bottom: 60px;
 }
 
-/*photo 2*/
-.photo-max-width-2 {
-	background-image: url('img/desk_2.jpg');
+.digital-marketing {
+	border-right: 1px solid  #35322C;
+	height: 100%;
 }
-
-.photo-max-width-2 img {
-	width: 100%;
-	max-height: 350px;
-}
-
 /*project*/
 .container-projects {
 	padding: 30px 0px;
@@ -254,7 +243,7 @@ p {
 	padding: 21px 34px;
 	margin: 40px 0px;
 	letter-spacing: 2px;
-	font-family: 'Karla', sans-serif;
+
 	font-size: 15px;
 	font-weight: 400;
 	border: solid 2px #faf4eb;
@@ -294,10 +283,6 @@ footer h3 {
 	margin: 10px;
 }
 
-.icon:hover {
-		fill:#8e1b1b;
-}
-
 /*RESPONSIVE*/
 @media screen and (max-width: 600px){
 	header {
@@ -305,6 +290,11 @@ footer h3 {
 		margin: 20px
 	}
 
+
+.navigation {
+	text-align: center;
+	width: 100%;
+}
 
 	ul {
 		margin-top:0px;
@@ -316,20 +306,28 @@ footer h3 {
 			margin-bottom: 10px;
 	}
 
-	.presentation {
+	.container-presentation {
 		margin: 40px 0px 60px 0px;
+	}
+
+	.container-presentation img{
+		margin: 0px;
+	}
+
+	.container-presentation p{
+		margin-top: 60px;
 	}
 
 	.button-main {
 		margin-bottom: 40px;
 	}
 
-	h1 {
-		font-size: 18px;
+	.button-presentation {
+		text-align: center;
 	}
 
-	.photo-max-width-1 {
-		margin-top: 60px;
+	h1 {
+		font-size: 18px;
 	}
 
 	.introduction {
@@ -340,5 +338,35 @@ footer h3 {
 		font-size: 20px;
 	}
 
+	h4 {
+		font-size: 35px;
+	}
+
+	.expert {
+		margin: 0px 20px;
+	}
+
+	.digital-marketing, .digital-marketing h4 {
+		border:none;
+		text-align: left;
+	}
+	.digital-marketing p, .web-design p {
+		font-size: 18px;
+	}
+
+	.web-design p {
+		margin-bottom: 34px;
+	}
+	.web-design, h4 {
+		text-align: right;
+	}
+
+#dm, #wd {
+padding: 10px;
+}
+
+.container-hobbies, .container-hobbies h3 .container-hobbies p{
+	text-align: center;
+}
 
 }
