@@ -312,6 +312,8 @@ footer h3 {
 
 	.container-presentation img{
 		margin: 0px;
+		max-width: 300px;
+		max-height: 100%;
 	}
 
 	.container-presentation p{
@@ -365,8 +367,14 @@ footer h3 {
 padding: 10px;
 }
 
-.container-hobbies, .container-hobbies h3 .container-hobbies p{
+.container-hobbies, .container-hobbies h3{
 	text-align: center;
+}
+
+
+
+.col-7 {
+	margin:auto;
 }
 
 }
