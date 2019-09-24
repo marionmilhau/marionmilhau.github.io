@@ -31,13 +31,13 @@ h2 {
 	margin: 50px 0px;
 }
 
-h3 {
+h4 {
 	color: #35322C;
 	font-size: 20px;
 
 }
 
-h4 {
+h3 {
 	color: #35322B;
 	text-transform: uppercase;
 	font-size: 45px;
@@ -205,7 +205,7 @@ p {
 	margin: 30px 0px;
 }
 
-.container-hobbies h3 {
+.container-hobbies h4 {
 	margin: 10px 0px 0px 0px;
 	width: 100%;
 }
@@ -232,7 +232,7 @@ p {
 	margin: 40px 0px;
 }
 
-.contact h3 {
+.contact h4 {
 	color:#faf4eb;
 	margin-bottom: 50px;
 }
@@ -260,7 +260,7 @@ footer {
 	text-align: center;
 }
 
-footer h3 {
+footer h4 {
 	text-transform: none;
 	font-size: 15px;
 	margin-bottom: 60px;
@@ -344,7 +344,7 @@ a {
 		font-size: 20px;
 	}
 
-	h4 {
+	h3 {
 		font-size: 35px;
 	}
 
@@ -352,7 +352,7 @@ a {
 		margin: 0px 20px;
 	}
 
-	.digital-marketing, .digital-marketing h4 {
+	.digital-marketing, .digital-marketing h3 {
 		border:none;
 		text-align: left;
 	}
@@ -363,7 +363,7 @@ a {
 	.web-design p {
 		margin-bottom: 34px;
 	}
-	.web-design, h4 {
+	.web-design, h3 {
 		text-align: right;
 	}
 
@@ -371,7 +371,7 @@ a {
 	padding: 10px;
 	}
 
-	.container-hobbies, .container-hobbies h3{
+	.container-hobbies, .container-hobbies h4{
 		text-align: center;
 	}
 
