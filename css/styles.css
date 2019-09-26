@@ -386,26 +386,28 @@ footer h4 {
 		padding-bottom: 0px;
 	}
 
-	.container-form {
-    margin: 40px 40px 0px 40px !important;
+	form {
+		width: 350px !important;
 	}
-
 }
 
 /*CONTACT CSS*/
-.container-form {
-	margin: 0px 440px;
+
+.container-form{
+	display:flex;
+	justify-content: center;
+	flex-direction:column;
 }
 
-.container-form form{
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+.form-content {
+	display: flex;
+	justify-content: center;
+
 }
 
 form {
 	font-size: 16px;
-	margin:20px 0px;
+	width:600px;
 }
 
 .container-form h1, .container-form p{
