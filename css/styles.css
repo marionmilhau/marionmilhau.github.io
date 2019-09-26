@@ -99,7 +99,7 @@ p {
 }
 
 #button-contact:hover {
-	border: solid 1px #8e1b1b;
+	border: solid 1px #BD6B42;
 }
 
 /* presentation */
@@ -290,29 +290,27 @@ footer h4 {
 		margin: 20px
 	}
 
-
-.navigation {
-	text-align: center;
-	width: 100%;
-}
+	.navigation {
+		text-align: center;
+		width: 100%;
+	}
 
 	ul {
 		margin-top:10px;
 	}
 
-#button-contact {
-	text-align: right;
-	padding: 0;
-}
+	#button-contact {
+		text-align: right;
+		padding: 0;
+	}
 
-a {
-		font-size: 12px;
-
+	a {
+			font-size: 12px;
 	}
 
 	.container-presentation {
 		margin: 40px 0px 60px 0px;
-	}
+		}
 
 	.container-presentation img{
 		margin: 0px;
@@ -388,15 +386,15 @@ a {
 		padding-bottom: 0px;
 	}
 
+	.container-form {
+    margin: 40px 40px 0px 40px !important;
+	}
+
 }
 
 /*CONTACT CSS*/
 .container-form {
 	margin: 0px 440px;
-}
-
-.container-form h1, .container-form p{
-	text-align:center;
 }
 
 .container-form form{
@@ -405,19 +403,18 @@ a {
 	justify-content:center;
 }
 
-.service {
-	display:flex;
-	flex-direction:row;
+form {
+	font-size: 16px;
+	margin:20px 0px;
+}
+
+.container-form h1, .container-form p{
+	text-align:center;
 }
 
 .checkbox {
 	display:flex;
 	flex-direction:row;
-}
-
-form {
-	font-size: 16px;
-	margin:20px 0px;
 }
 
 .container-form-item {
@@ -430,13 +427,9 @@ form {
 	width: 100%;
 }
 
-.service input, .checkbox input {
-	width: auto;
-	margin-right: 10px;
-}
-
 .service {
-	display: flex;
+	display:flex;
+	flex-direction:row;
 	align-items: center;
 }
 
@@ -445,12 +438,21 @@ form {
 	align-items: flex-start;
 }
 
- input[type=text], input[type=email], input[type=tel], textarea {
+.service input, .checkbox input {
+	width: auto;
+	margin-right: 10px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
 	 border: none;
 	 background-color: white;
 	 outline:none;
 	 font-size:15px;
 	 padding: 10px;
+ }
+
+ textarea {
+	 resize: none;
  }
 
 .container-form-item select {
@@ -467,4 +469,8 @@ form {
 .container-form-item input[name=gdpr] {
 	width: auto;
 	height:auto;
+}
+
+.submit {
+	margin: 10px 0px 60px 0px;
 }
