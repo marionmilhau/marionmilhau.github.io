@@ -424,7 +424,7 @@ form {
 	margin: 10px 0px;
 }
 
-.container-form-item input {
+.container-form-item input, textarea {
 	margin-top: 5px;
 	height: 40px;
 	width: 100%;
@@ -445,12 +445,12 @@ form {
 	align-items: flex-start;
 }
 
- input[type=text], input[type=email], input[type=tel] {
+ input[type=text], input[type=email], input[type=tel], textarea {
 	 border: none;
 	 background-color: white;
 	 outline:none;
 	 font-size:15px;
-	 padding-left: 10px;
+	 padding: 10px;
  }
 
 .container-form-item select {
