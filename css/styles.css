@@ -194,11 +194,8 @@ p {
 	height: 100%;
 	max-width:400px;
 	margin: 10px 0px;
-	filter: saturate(0);
 }
-.container-projects img:hover {
-	filter: none;
-}
+
 /*Hobbies*/
 .container-hobbies {
 	margin: 60px 0px;
