@@ -59,7 +59,7 @@ a {
 p {
 	color: #35322C;
 
-	font-size: 20px;
+	font-size: 16px;
 	letter-spacing: 0.5px;
 	line-height: 22px;
 }
@@ -391,4 +391,83 @@ a {
 		padding-bottom: 0px;
 	}
 
+}
+
+/*CONTACT CSS*/
+.container-form {
+	margin: 0px 440px;
+}
+
+.container-form h1, .container-form p{
+	text-align:center;
+}
+
+.container-form form{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.service {
+	display:flex;
+	flex-direction:row;
+}
+
+.checkbox {
+	display:flex;
+	flex-direction:row;
+}
+
+form {
+	font-size: 16px;
+	margin:20px 0px;
+}
+
+.container-form-item {
+	margin: 10px 0px;
+}
+
+.container-form-item input {
+	margin-top: 5px;
+	height: 40px;
+	width: 100%;
+}
+
+.service input, .checkbox input {
+	width: auto;
+	margin-right: 10px;
+}
+
+.service {
+	display: flex;
+	align-items: center;
+}
+
+.checkbox {
+	display: flex;
+	align-items: flex-start;
+}
+
+ input[type=text], input[type=email], input[type=tel] {
+	 border: none;
+	 background-color: white;
+	 outline:none;
+	 font-size:15px;
+	 padding-left: 10px;
+ }
+
+.container-form-item select {
+	margin-top: 10px;
+  width: 100%;
+	height: 40px;
+  padding: 26px 20px;
+  border: none;
+  background-color:white;
+	font-size: 15px;
+	color:  #BD6B42;
+}
+
+.container-form-item input[name=gdpr] {
+	width: auto;
+	height:auto;
 }
