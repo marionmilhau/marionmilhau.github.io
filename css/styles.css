@@ -16,7 +16,7 @@ h1 {
 	font-size: 25px;
 	font-weight: normal;
 	margin:0px;
-	line-height: 30px;
+	line-height: 35px;
 }
 
 h2 {
@@ -62,6 +62,7 @@ p {
 	font-size: 16px;
 	letter-spacing: 0.5px;
 	line-height: 22px;
+	text-align: left;
 }
 
 
@@ -178,6 +179,7 @@ p {
 .expert p {
 	line-height: 26px;
 	margin-bottom: 60px;
+	padding:0px 80px
 }
 
 .digital-marketing {
@@ -189,11 +191,23 @@ p {
 	padding: 30px 0px;
 }
 
+
+
 .container-projects img {
-	width: 100%;
-	height: 100%;
+	width: 250px;
+	height: 250px;
 	max-width:400px;
 	margin: 10px 0px;
+ 	border-radius: 30px;
+	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
+	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
+}
+
+.container-projects img:hover{
+	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
+	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
+	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
 }
 
 /*Hobbies*/
@@ -388,6 +402,17 @@ footer h4 {
 
 	form {
 		width: 350px !important;
+	}
+
+	.digital-marketing p {
+		padding-left:0px !important;
+		padding-right: 100px !important;
+	}
+
+	.web-design p {
+		text-align: right;
+		padding-right:0px !important;
+		padding-left: 100px;
 	}
 
 }
