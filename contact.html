@@ -55,7 +55,7 @@
     <p class="text-contact" style="margin: 10px 10px 0px 10px;">I’m very excited to chat with you and learn more about what you do!<br>
 
     <div class="form-content">
-    <form action="contact.php">
+    <form action="https://formspree.io/marion.milhau.pro@gmail.com" method="POST" />
       <div class="container-form-item">
         First name*<br>
         <input type="text" name="firstname" required maxlength=" 75">
@@ -83,7 +83,7 @@
 
       <div class="container-form-item">
         Phone number*<br>
-        <input type="tel" name="phone" pattern="[0-9]{15}" maxlength="15" required>
+        <input type="tel" name="phone" maxlength="15" required>
       </div>
 
       <div class="container-form-item">
@@ -98,7 +98,7 @@
 
       <div class="container-form-item">
         Tell me a little bit about your business*
-        <textarea style="width:100%; height: 200px; display:flex; align-items:flex-start;" required></textarea>
+        <textarea style="width:100%; height: 200px; display:flex; align-items:flex-start;" name="business" required></textarea>
       </div>
 
       <div class="container-form-item">
@@ -116,7 +116,7 @@
 
       <div class="container-form-item">
         What are you hoping to achieve working with me? What's the end goal?*
-        <textarea style="width:100%;height: 200px;" required></textarea>
+        <textarea style="width:100%;height: 200px;" name="goal" required></textarea>
       </div>
 
       <div class="container-form-item">
