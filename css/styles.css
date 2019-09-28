@@ -191,8 +191,6 @@ p {
 	padding: 30px 0px;
 }
 
-
-
 .container-projects img {
 	width: 250px;
 	height: 250px;
@@ -225,11 +223,16 @@ p {
 }
 
 .container-hobbies img {
-	max-width: 400px;
-	min-width: 180px;
 	width: 100%;
 	height: auto;
 	margin: 10px 0px;
+}
+
+.icon-hobbies {
+		fill:black;
+		max-height: 40px;
+		max-width: 40px;
+		margin: 0px;
 }
 
 /*contact*/
