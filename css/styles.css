@@ -226,25 +226,17 @@ p {
 		text-align: center;
 }
 
-.container-projects img {
-	width: 250px;
-	height: 250px;
-	max-width:400px;
-	margin: 10px 0px;
- 	border-radius: 30px;
-	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
-	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
-}
-
 .icon-projects {
 		fill:#35322C;
 		max-height: 130px;
 		max-width: 130px;
 		margin: 0px;
 		border: 1px solid Black;
-		padding: 15px;
+		padding: 20px;
 		border-radius: 5px;
+		-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.15);
+		box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.15);
 }
 
 .icon-projects:hover {
@@ -261,7 +253,7 @@ p {
 
 /*Hobbies*/
 .container-hobbies {
-	margin: 90px 0px 90px 0px;
+	margin: 40px 0px 90px 0px;
 }
 
 .container-hobbies h2 {
@@ -281,8 +273,8 @@ p {
 
 .icon-hobbies {
 		fill:black;
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 50px;
+		max-width: 50px;
 		margin: 0px;
 }
 
@@ -479,6 +471,10 @@ footer h4 {
 	flex-direction:column;
 }
 
+.container-form p {
+	margin: 30px 0px 50px 0px !important;
+}
+
 .form-content {
 	display: flex;
 	justify-content: center;
@@ -555,4 +551,11 @@ input[type=text], input[type=email], input[type=tel], textarea {
 
 .submit {
 	margin: 10px 0px 60px 0px;
+}
+
+/*project*/
+.container-project-separate {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
