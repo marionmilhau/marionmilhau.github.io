@@ -183,7 +183,7 @@ p {
 
 /* Expertise */
 .icon-expert {
-		fill:black;
+		fill:#35322C;
 		max-height: 60px;
 		max-width: 60px;
 		margin: 10px 10px 20px 10px;
@@ -192,12 +192,13 @@ p {
 .expert {
 	margin-bottom: 40px;
 	text-align: center;
+	padding: 0px 50px;
 }
 
 .expert p {
 	line-height: 26px;
 	margin-bottom: 60px;
-	padding:0px 60px;
+	padding:0px 40px;
 	text-align: center !important;
 }
 
@@ -207,9 +208,22 @@ p {
 }
 
 /*project*/
+.projects-title h2 {
+	margin:150px 0px 0px 0px !important;
+}
+
+.projects-title p {
+	margin: 20px 0px;
+}
+
 .container-projects {
-	margin-top:100px;
-	padding: 30px 0px;
+	margin-top:20px;
+	padding: 30px 120px;
+	text-align: center;
+}
+
+.container-projects p {
+		text-align: center;
 }
 
 .container-projects img {
@@ -223,20 +237,20 @@ p {
 	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.25);
 }
 
-.container-projects img:hover{
-	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
-	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
-	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
-}
-
 .icon-projects {
-		fill:black;
+		fill:#35322C;
 		max-height: 130px;
 		max-width: 130px;
 		margin: 0px;
 		border: 1px solid Black;
 		padding: 15px;
-		border-radius: 10px;
+		border-radius: 5px;
+}
+
+.icon-projects:hover {
+	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
+	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
+	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
 }
 
 .col.nopadding {
