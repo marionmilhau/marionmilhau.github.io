@@ -45,6 +45,7 @@ h3 {
   letter-spacing: 0.33px;
   line-height: 47px;
   text-align: center;
+	margin-top:0px;
 }
 
 a {
@@ -150,6 +151,18 @@ p {
 
 
 /* main */
+.icon-contact {
+	max-width: 60px;
+	max-height: 60px;
+	fill:#35322C;
+	position:fixed;
+	left: 93%;
+	top: 87%;
+}
+
+.icon-contact:hover{
+	opacity:0.8;
+}
 
 .container img {
 	max-width: 100%;
@@ -179,7 +192,8 @@ p {
 .expert p {
 	line-height: 26px;
 	margin-bottom: 60px;
-	padding:0px 80px
+	padding:0px 80px;
+	text-align: center !important;
 }
 
 .digital-marketing {
@@ -206,6 +220,22 @@ p {
 	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
 	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
 	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
+}
+
+.icon-projects {
+		fill:black;
+		max-height: 130px;
+		max-width: 130px;
+		margin: 0px;
+		border: 1px solid Black;
+		padding: 15px;
+		border-radius: 10px;
+}
+
+.col.nopadding {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 /*Hobbies*/
