@@ -27,7 +27,6 @@ h2 {
    text-align: center;
 	text-transform: uppercase;
 	text-align: center;
-
 	margin: 50px 0px 70px 0px;
 }
 
@@ -141,6 +140,7 @@ p {
 	font-size: 15px;
 	font-weight: 400;
 	border: solid 2px #BD6B42;
+	border-radius: 40px;
 }
 
 .button-main:hover {
@@ -298,20 +298,20 @@ p {
 }
 
 .button-contact {
-	background: #BD6B42;
-	color: #faf4eb;
+	background: #faf4eb;
+	color: #BD6B42;
 	padding: 21px 34px;
 	margin: 40px 0px;
 	letter-spacing: 2px;
-
+	border-radius: 40px;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 500;
 	border: solid 2px #faf4eb;
 }
 
 .button-contact:hover {
-	background: #faf4eb;
-	color: #BD6B42;
+	background: #BD6B42;
+	color: #faf4eb;
 }
 
 /*footer*/
@@ -337,10 +337,14 @@ footer h4 {
 }
 
 .icon{
-	fill:black;
+	fill:#35322B;
 	max-height: 40px;
 	max-width: 40px;
 	margin: 10px;
+}
+
+.icon:hover{
+	opacity: 0.8;
 }
 
 /*RESPONSIVE*/
@@ -478,7 +482,7 @@ footer h4 {
 .form-content {
 	display: flex;
 	justify-content: center;
-
+	color:#BD6B42
 }
 
 form {
@@ -509,11 +513,13 @@ form {
 	display:flex;
 	flex-direction:row;
 	align-items: center;
+	color: #35322B
 }
 
 .checkbox {
 	display: flex;
 	align-items: flex-start;
+	color:#35322B
 }
 
 .service input, .checkbox input {
