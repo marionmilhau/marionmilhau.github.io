@@ -209,7 +209,7 @@ p {
 
 /*project*/
 .projects-title h2 {
-	margin:150px 0px 0px 0px !important;
+	margin:150px 0px 20px 0px !important;
 }
 
 .projects-title p {
@@ -217,7 +217,7 @@ p {
 }
 
 .container-projects {
-	margin-top:20px;
+	margin:30px 0px 50px 0px;;
 	padding: 30px 120px;
 	text-align: center;
 }
