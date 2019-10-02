@@ -440,11 +440,11 @@ and (max-device-width : 667px){
 	}
 
 	h2 {
-		font-size: 20px;
+		font-size: 35px;
 	}
 
 	h3 {
-		font-size: 35px;
+		font-size: 25px;
 	}
 
 	a {
@@ -508,12 +508,16 @@ and (max-device-width : 667px){
 		border:none;
 		text-align: center;
 		padding: 0px;
-		line-height: 40px;
+		line-height: 30px;
 		margin-bottom: 20px;
 	}
 	.digital-marketing p, .web-design p, .content-creation p {
 		font-size: 18px;
 		margin-bottom: 34px;
+	}
+
+	.projects-title p {
+		font-size:22px;
 	}
 
 	#dm, #wd {
@@ -530,6 +534,10 @@ and (max-device-width : 667px){
 		text-align: center;
 	}
 
+	.container-hobbies {
+		margin-bottom: 60px;
+	}
+
 	.col-7 {
 		margin:auto;
 	}
@@ -543,7 +551,7 @@ and (max-device-width : 667px){
 		padding-bottom: 0px;
 	}
 
-.container-hobbies {
+#sus, #photo, #trav{
 	display:none;
 }
 
