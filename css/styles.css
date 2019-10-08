@@ -138,7 +138,6 @@ p {
 	margin-top: 40px;
 	color: #faf4eb;
 	letter-spacing: 2px;
-
 	font-size: 15px;
 	font-weight: 400;
 	border: solid 2px #BD6B42;
@@ -146,7 +145,7 @@ p {
 }
 
 .button-main:hover {
-	background: #faf4eb;
+	background-color: #faf4eb;
 	color: #BD6B42;
 }
 
@@ -159,10 +158,12 @@ p {
 	position:fixed;
 	left: 93%;
 	top: 87%;
+	transition: all .5s ease-in-out;
 }
 
 .icon-contact:hover{
-	opacity:0.8;
+	opacity:0.9;
+	transform: rotate(360deg);
 }
 
 .container img {
@@ -239,6 +240,7 @@ p {
 	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.15);
 	margin-bottom: 30px;
 	background-color: #faf4eb;
+	display: block;
 }
 
 .icon-projects {
@@ -249,12 +251,16 @@ p {
 		padding:10px;
 }
 
-.container-icons-project:hover {
-	-webkit-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
-	-moz-box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
-	box-shadow: 0px 9px 24px -5px rgba(0,0,0,0.40);
+
+.container-icons-project:hover p {
+	position: relative;
+	bottom:5px;
 }
 
+.container-icons-project:hover .icon-projects {
+	position: relative;
+	top:5px;
+}
 
 /*Hobbies*/
 
