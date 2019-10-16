@@ -48,7 +48,7 @@
     <p class="text-contact">I’m very excited to chat with you and learn more about what you do!<br>
 
     <div class="form-content">
-    <form action="#" method="POST" />
+    <form action="mail.php" method="POST" />
       <div class="container-form-item">
         First name*<br>
         <input type="text" name="firstname" required maxlength=" 75">
@@ -56,12 +56,12 @@
 
       <div class="container-form-item">
         Last name*<br>
-        <input type="text" name="lastname" id="expediteurMail" required maxlength=" 75">
+        <input type="text" name="lastname" required maxlength=" 75">
       </div>
 
       <div class="container-form-item">
         Company:<br>
-        <input type="text" name="company" maxlength=" 75" id="objetMail">
+        <input type="text" name="company" maxlength=" 75">
       </div>
 
       <div class="container-form-item">
@@ -91,7 +91,7 @@
 
       <div class="container-form-item">
         Tell me a little bit about your business*
-        <textarea style="width:100%; height: 200px; display:flex; align-items:flex-start;" name="business" id="messageMail" required></textarea>
+        <textarea style="width:100%; height: 200px; display:flex; align-items:flex-start;" name="message" required></textarea>
       </div>
 
       <div class="container-form-item">
@@ -122,17 +122,6 @@
         <input type="submit" onclick="sendMail();return" value="Submit" class="button-main">
       </div>
     </form>
-
-    <script>
-    function sendMail() {
-        var monEmail = "marion.milhau.pro@gmail.com";
-        var link = "mailto:" + monEmail
-                 + "?subject=" + escape(document.getElementById('objetMail').value)
-                 + "&body=" + escape(document.getElementById('messageMail').value);
-
-        window.location.href = link;
-    }
-    </script>
     </div>
 
   </main>
