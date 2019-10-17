@@ -94,16 +94,30 @@ p {
 	margin: 0px 15px;
 }
 
+
+:root {
+  --mainColor: #BD6B42;
+}
+
 #button-contact {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 2px;
 	color:#35322B;
-	padding: 10px 0px;
-	border: solid 2px #faf4eb;
+	padding: 10px;
+  text-decoration: none;
+  transition: background-size .2s;
 }
 
 #button-contact:hover {
-	border-bottom: solid 2px #BD6B42;
+  background-size: 4px 50px;
+	color:#faf4eb;
 }
-
 /* presentation */
 .container-presentation {
 	margin: 90px 140px 90px 140px;
@@ -247,8 +261,18 @@ p {
 }
 
 #overlay {
-	opacity: 0
 	visibility: hidden;
+	position: relative;
+	top:-150px;
+}
+
+.container-icons-project:hover + #overlay, #overlay:hover {
+	visibility: visible;
+}
+
+#overlay:hover + .icon-projects {
+	filter: blur(5px);
+	-webkit-filter': blur(5px);
 }
 
 .icon-projects {
