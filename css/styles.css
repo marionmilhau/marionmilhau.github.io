@@ -197,7 +197,7 @@ p {
 }
 
 .expert {
-	margin-bottom: 40px;
+	margin: 100px 0px 30PX 0PX;
 	text-align: center;
 	padding: 0px 50px;
 }
@@ -209,14 +209,9 @@ p {
 	text-align: center !important;
 }
 
-
-.row {
-	margin-bottom:30px;
-}
-
 /*project*/
 .projects-title h2 {
-	margin:150px 0px 20px 0px !important;
+	margin:120px 0px 20px 0px !important;
 }
 
 .projects-title p {
