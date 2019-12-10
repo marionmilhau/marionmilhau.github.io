@@ -447,6 +447,10 @@ and (max-device-width : 1024px){
 		margin: 90px 30px;
 	}
 
+	.container-elements-project {
+		padding: 2%
+	}
+
 	.container-presentation img{
 		max-width: 300px;
 		max-height: 100%;
