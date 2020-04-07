@@ -301,10 +301,15 @@ a{
 
 #seemore {
   align-self: flex-start;
-  color: #F3F3F3;
+  color: white;
   margin: 20px 0px 0px 0px;
   padding: 15px 25px;
+}
 
+#back {
+  color: white;
+  margin: 0px 0px 0px 0px;
+  padding: 15px 25px;
 }
 
 .button:hover {
@@ -395,7 +400,7 @@ img {
 }
 
 #title6::before {
-	width:190px;
+	width:180px;
 	height:18px;
 }
 
@@ -414,7 +419,7 @@ img {
 @media screen and (min-width:1600px) {
   .grid {
     display: grid;
-    grid-template-rows:  350px 50px 194px 50px 124px 50px 855px 50px 20px 50px 210px 50px 575px 50px 140px 50px 801px 50px 300px;
+    grid-template-rows:  350px 50px 194px 50px 124px 50px 855px 50px 20px 50px 270px 50px 575px 50px 140px 50px 801px 50px 340px;
     grid-template-columns: 400px 1fr 50px 1fr 400px;
     grid-template-areas:
     ". card1 . card2 ."
@@ -457,6 +462,8 @@ img {
 
   .color {
     height:170px;
+    margin:0px;
+
   }
 
   .logocard2 {
@@ -494,7 +501,7 @@ img {
   .grid {
     display: grid;
     grid-template-columns: 200px 1fr 50px 1fr 200px;
-    grid-template-rows:  350px 50px 194px 50px 124px 50px 855px 50px 20px 50px 210px 50px 575px 50px 140px 50px 801px 50px 300px;
+    grid-template-rows:  350px 50px 194px 50px 124px 50px 855px 50px 20px 50px 270px 50px 575px 50px 140px 50px 801px 50px 340px;
     grid-template-areas:
     ". card1 . card2 ."
     ". . . card2 ."
@@ -574,7 +581,7 @@ img {
   .grid {
     display: grid;
     grid-template-columns: 100px 1fr 50px 1fr 100px;
-    grid-template-rows:  350px 50px 194px 50px 124px 50px 855px 50px 20px 50px 210px 50px 575px 50px 140px 50px 801px 50px 300px;
+    grid-template-rows:  350px 50px 194px 50px 124px 50px 855px 50px 20px 50px 270px 50px 575px 50px 140px 50px 801px 50px 340px;
     grid-template-areas:
     ". card1 . card2 ."
     ". . . card2 ."

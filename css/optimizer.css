@@ -338,10 +338,15 @@ a{
 
 #seemore {
   align-self: flex-start;
-  color: #F6FAFF;
+  color: white;
   margin: 20px 0px 0px 0px;
   padding: 15px 25px;
 
+}
+
+#back {
+  color: white;
+  padding: 15px 25px;
 }
 
 .button:hover {
@@ -350,6 +355,12 @@ transform: translate(0, -5px);}
 /*END buttons*/
 
 /*highlight*/
+
+.title, .title_card {
+  position: relative;
+  z-index: 100;
+}
+
 .title::before {
   content:"";
   background-color:#EECFBF;
@@ -400,7 +411,7 @@ transform: translate(0, -5px);}
   .grid {
     display: grid;
     grid-template-columns: 400px 1fr 50px 1fr 400px;
-    grid-template-rows: 400px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 300px ;
+    grid-template-rows: 400px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 350px ;
     grid-template-areas:
     ". card1 . card2 ."
     ". . . . ."
@@ -498,7 +509,7 @@ transform: translate(0, -5px);}
   .grid {
     display: grid;
     grid-template-columns: 200px 1fr 50px 1fr 200px;
-    grid-template-rows: 400px 50px 260px 50px 140px 50px 720px 50px 550px 50px 550px 50px 1300px 50px 550px 50px 550px 50px 300px;
+    grid-template-rows: 400px 50px 260px 50px 140px 50px 720px 50px 550px 50px 550px 50px 1300px 50px 550px 50px 550px 50px 350px;
     grid-template-areas:
     ". card1 . card2 ."
     ". . . . ."
@@ -601,7 +612,7 @@ transform: translate(0, -5px);}
   .grid {
     display: grid;
     grid-template-columns: 100px 1fr 50px 1fr 100px;
-    grid-template-rows: 400px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 300px ;
+    grid-template-rows: 400px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 350px ;
     grid-template-areas:
     ". card1 . card2 ."
     ". . . . ."

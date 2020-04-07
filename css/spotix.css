@@ -285,10 +285,14 @@ a{
 
 #seemore {
   align-self: flex-start;
-  color: #FEF8F7;
+  color: white;
   margin: 20px 0px 0px 0px;
   padding: 15px 25px;
+}
 
+#back {
+  color: white;
+  padding: 15px 25px;
 }
 
 .button:hover {
@@ -317,6 +321,12 @@ img {
 
 
 /*highlight*/
+
+.title, .title_card {
+  position: relative;
+  z-index: 100;
+}
+
 .title::before {
   content:"";
   background-color:#EECFBF;
@@ -346,7 +356,22 @@ img {
 }
 
 #title8::before {
-	width:180px;
+	width:190px;
+	height:18px;
+}
+
+#title11::before {
+	content:"";
+	background-color:#EECFBF;
+	display:block;
+	position:relative;
+	top:38px;
+	left:8px;
+
+	border-radius:90px;
+  z-index:-1;
+  position:relative;
+  width:180px;
 	height:18px;
 }
 
@@ -355,7 +380,7 @@ img {
 @media screen and (min-width:1600px) {
   .grid {
     display: grid;
-    grid-template-rows: 360px 50px 50px 300px 50px 80px 50px 280px 50px 250px 50px 300px 50px 250px 50px 300px;
+    grid-template-rows: 360px 50px 50px 300px 50px 80px 50px 280px 50px 250px 50px 300px 50px 250px 50px 350px;
     grid-template-columns: 400px 1fr 50px 1fr 400px;
     grid-template-areas:
     ". card1 . card2 ."
@@ -424,7 +449,7 @@ img {
 @media screen and (min-width:1290px) and (max-width:1600px) {
   .grid {
     display: grid;
-    grid-template-rows: 360px 50px 50px 300px 50px 80px 50px 280px 50px 250px 50px 300px 50px 250px 50px 300px;
+    grid-template-rows: 360px 50px 50px 300px 50px 80px 50px 280px 50px 250px 50px 300px 50px 250px 50px 350px;
     grid-template-columns: 200px 1fr 50px 1fr 200px;
     grid-template-areas:
     ". card1 . card2 ."
@@ -492,7 +517,7 @@ img {
 @media screen and (min-width:1024px) and (max-width:1290px) {
   .grid {
     display: grid;
-    grid-template-rows: 360px 50px 50px 300px 50px 80px 50px 280px 50px 250px 50px 300px 50px 250px 50px 300px;
+    grid-template-rows: 360px 50px 50px 300px 50px 80px 50px 280px 50px 250px 50px 300px 50px 250px 50px 350px;
     grid-template-columns: 100px 1fr 50px 1fr 100px;
     grid-template-areas:
     ". card1 . card2 ."

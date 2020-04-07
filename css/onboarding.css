@@ -270,10 +270,13 @@ a{
 
 #seemore {
   align-self: flex-start;
-  color: #F6FAFF;
+  color: white;
   margin: 20px 0px 0px 0px;
   padding:0px 25px;
-
+}
+#back {
+  color: white;
+  padding: 15px 25px;
 }
 
 .button:hover {
@@ -296,6 +299,8 @@ img {
 
 .card6 img {
   height:380px;
+  margin-top: 10px;
+
 }
 
 .card7 img {
@@ -347,6 +352,12 @@ img {
 
 
 /*highlight*/
+
+.title, .title_card {
+  position: relative;
+  z-index: 100;
+}
+
 .title::before {
   content:"";
   background-color:#EECFBF;
@@ -400,7 +411,7 @@ img {
 @media screen and (min-width:1600px) {
   .grid {
     display: grid;
-    grid-template-rows: 390px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 300px ;
+    grid-template-rows: 390px 50px 320px 50px 83px 50px 350px 50px 158px 50px 500px 50px 522px 50px 522px 50px 350px ;
     grid-template-columns: 400px 1fr 50px 1fr 400px;
     grid-template-areas:
     ". card1 . card2 ."
@@ -483,7 +494,7 @@ img {
 @media screen and (min-width:1290px) and (max-width:1600px) {
   .grid {
     display: grid;
-    grid-template-rows: 390px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 300px ;
+    grid-template-rows: 390px 50px 320px 50px 83px 50px 350px 50px 158px 50px 500px 50px 522px 50px 522px 50px 350px ;
     grid-template-columns: 200px 1fr 50px 1fr 200px;
     grid-template-areas:
     ". card1 . card2 ."
@@ -566,7 +577,7 @@ img {
 @media screen and (min-width:1024px) and (max-width:1290px) {
   .grid {
     display: grid;
-    grid-template-rows: 390px 50px 320px 50px 83px 50px 350px 50px 158px 50px 606px 50px 522px 50px 522px 50px 300px ;
+    grid-template-rows: 390px 50px 320px 50px 83px 50px 350px 50px 158px 50px 500px 50px 522px 50px 522px 50px 350px ;
     grid-template-columns: 100px 1fr 50px 1fr 100px;
     grid-template-areas:
     ". card1 . card2 ."
