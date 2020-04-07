@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /*MAIN GRID*/
 .grid {
   display: grid;
@@ -141,94 +136,23 @@
 }
 
 /*TEXT*/
-h1, h2, h3, p, a {
-  font-family: 'Karla', sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-h1{
-  color: #2F2B25;
-  font-size: 28px;
-  letter-spacing: 1.8px;
-  line-height: 40px;
-	text-align: center;
-  margin-bottom: 20px;
-}
-
-h2 {
-	font-size: 18px;
-	letter-spacing: 1.03px;
-	line-height: 23px;
-	color: #2F2B25;
-	text-align: center;
-  margin-bottom: 20px;
-}
-
-h3 {
-	color: #2F2B25;
-	font-size: 15px;
-	letter-spacing: 0.77px;
-	line-height: 21px;
-	text-align: center;
-  margin-bottom: 20px;
-}
-
-p{
-  color: #2F2B25;
-  font-size: 15px;
-  letter-spacing: 0.77px;
-  line-height: 20px;
-}
-
-.card_description p {
-	text-align: left;
-}
-
 .card6 p, .card7 p, .card8 p, .card9 p, .card10 p{
   margin: 40px 0px 20px 0px;
   font-size: 20px;
 }
-
 /*end text*/
 
-/*TAG*/
-.tag_container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+
+/*buttons*/
+
+#seemore {
+  align-self: flex-start;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 25px;
 }
 
-.tag {
-  height: 30px;
-  border-radius: 20px;
-  background-color: #FFF;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  margin-bottom: 20px;
-}
-
-#tag_left {
-  margin-right: 10px;
-}
-
-.tag p{
-	color: #BD6B42;
-	font-size: 10px;
-	letter-spacing: 0.51px;
-	line-height: 12px;
-	text-align: center;
-
-	font-family: 'Karla', sans-serif;
-	font-weight: 300;
-	font-style: normal;
-
-	margin: 9px 14px;
-}
-/*end tag*/
+/*END buttons*/
 
 
 /*wireframe*/
@@ -284,95 +208,7 @@ img {
 
 /*END IMAGE*/
 
-
-/*buttons*/
-.contact_buttons {
-	display: flex;
-	flex-direction: row;
-  justify-content: center;
-}
-
-.button {
-  height: 45px;
-  width: auto;
-  border-radius: 25px;
-  border: none;
-
-  text-align: center;
-  text-transform: uppercase;
-	cursor: pointer;
-
-	display: inline-block;
-	transition-duration: 0.4s;
-
-  position: relative;
-  z-index: 100;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-a{
-  text-decoration: none;
-  font-size: 15px;
-  letter-spacing: 2px;
-  line-height: 10px;
-
-  padding:0px 30px;
-}
-
-#emailme {
-  background-color: #A34D2A;
-  color: #F6FAFF;
-  margin: 0px 16px 0px 0px;
-
-}
-
-#linkedin {
-  background-color: #EFCFBE;
-  color: #A34D2A;
-  margin: 0px 0px 20px 0px;
-
-}
-
-#seemore {
-  align-self: flex-start;
-  color: white;
-  margin: 20px 0px 0px 0px;
-  padding: 0px 25px;
-}
-
-#back {
-  color: white;
-  padding: 0px 25px;
-}
-
-.button:hover {
-transform: translate(0, -5px);}
-
-/*END buttons*/
-
 /*highlight*/
-
-.title, .title_card {
-  position: relative;
-  z-index: 100;
-}
-
-.title::before {
-  content:"";
-  background-color:#EECFBF;
-  display:block;
-  position:relative;
-  top:38px;
-  left:8px;
-
-  border-radius:90px;
-  z-index:-1;
-  position:relative;
-}
-
 #title3::before {
 	width:145px;
 	height:18px;
@@ -431,9 +267,6 @@ transform: translate(0, -5px);}
     ". card10 card10 card10 ."
     ". . . . ."
     ". card11 card11 card11 .";
-    grid-row-gap: 0px;
-    margin-top: 150px;
-    margin-bottom: 150px;
   }
 
   .card6 p, .card7 p, .card8 p, .card9 p, .card10 p{
@@ -494,19 +327,6 @@ transform: translate(0, -5px);}
     height: 27px;
   }
   /*END IMAGES*/
-
-  .tag p{
-    font-size: 12px;
-  }
-
-  #tag_left {
-    margin-right: 16px;
-  }
-
-  #card {
-    padding: 50px 35px;
-  }
-
   #seemore, #back {
     padding: 15px 25px;
   }
@@ -541,10 +361,6 @@ transform: translate(0, -5px);}
 
     margin-top: 150px;
     margin-bottom: 150px;
-  }
-
-  .tag p{
-    font-size: 12px;
   }
 
   .card6 p, .card7 p, .card8 p, .card9 p, .card10 p{
@@ -610,14 +426,6 @@ transform: translate(0, -5px);}
     font-size: 18px;
   }
 
-  #tag_left {
-    margin-right: 16px;
-  }
-
-  #card {
-    padding: 50px 35px;
-  }
-
   #seemore, #back {
     padding: 15px 25px;
   }
@@ -657,10 +465,6 @@ transform: translate(0, -5px);}
   .card6 p, .card7 p, .card8 p, .card9 p, .card10 p{
     margin: 0px;
     font-size: 20px;
-  }
-
-  .tag p{
-  	font-size: 12px;
   }
 
   /*IMAGES*/
@@ -721,24 +525,12 @@ transform: translate(0, -5px);}
     font-size: 18px;
   }
 
-  #tag_left {
-    margin-right: 16px;
-  }
-
-  #card {
-    padding: 50px 35px;
-  }
-
   #seemore, #back {
     padding: 15px 25px;
   }
 }
 
 @media screen and (min-width:880px) and (max-width:1024px) {
-  .grid{
-    grid-template-columns: 200px 1fr 200px;
-  }
-
   /*IMAGES*/
   .card2 img{
       height: 300px;
@@ -787,12 +579,6 @@ transform: translate(0, -5px);}
 
   #seemore, #back {
     padding: 15px 25px;
-  }
-}
-
-@media screen and (min-width:700px) and (max-width:880px) {
-  .grid{
-    grid-template-columns: 150px 1fr 150px;
   }
 }
 
