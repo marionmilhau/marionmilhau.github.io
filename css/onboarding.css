@@ -6,7 +6,7 @@
 /*MAIN GRID*/
 .grid {
   display: grid;
-  grid-template-columns: 50px 1fr 50px;
+  grid-template-columns: 20px 1fr 20px;
   grid-template-rows: 30/100fr 52/100fr 28.5/100fr 43.3/100fr 57.2/100fr 66.3/100fr 89.4/100fr 43.5/100fr 52.2/100fr 52.2/100fr 35/100fr;
   grid-template-areas:
   ". card1 ."
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
 }
 
@@ -42,18 +42,18 @@
   align-items: flex-end;
   justify-content: center;
 
-  padding: 50px 0px 50px 35px;
+  padding: 50px 0px 50px 15px;
 }
 
 .card3 {
   grid-area: card3;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
 }
 
 .card4 {
   grid-area: card4;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@
 
 .card5 {
   grid-area: card5;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@
 
 .card6 {
   grid-area: card6;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@
 
 .card7 {
   grid-area: card7;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -92,12 +92,12 @@
 
 .card8 {
   grid-area: card8;
-  padding: 50px 35px;
+  padding: 50px 15px;
 }
 
 .card9 {
   grid-area: card9;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@
 
 .card10 {
   grid-area: card10;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -116,7 +116,7 @@
 
 .card11 {
   grid-area: card11;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -285,26 +285,25 @@ transform: translate(0, -5px);}
 /*IMAGES*/
 img {
   width:auto;
-  height: 30px;
 }
 
 .card2 img{
-    height: 250px;
+    height: 220px;
 }
 
 .card5 img {
-  height:215px;
+  height:180px;
   margin-top: 30px;
 }
 
 .card6 img {
-  height:380px;
+  height:340px;
   margin-top: 10px;
 
 }
 
 .card7 img {
-  height:580px;
+  height:520px;
   margin-top: 30px;
 }
 
@@ -322,7 +321,7 @@ img {
 }
 
 .color {
-  height: 75px;
+  height: 70px;
   margin-bottom: 20px;
 
 }
@@ -489,6 +488,10 @@ img {
   #tag_left {
     margin-right: 16px;
   }
+
+  #card {
+    padding: 50px 35px;
+  }
 }
 
 @media screen and (min-width:1290px) and (max-width:1600px) {
@@ -570,6 +573,10 @@ img {
 
   #tag_left {
     margin-right: 16px;
+  }
+
+  #card {
+    padding: 50px 35px;
   }
 }
 
@@ -653,6 +660,10 @@ img {
 
   #tag_left {
     margin-right: 16px;
+  }
+
+  #card {
+    padding: 50px 35px;
   }
 }
 

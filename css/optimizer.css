@@ -6,7 +6,7 @@
 /*MAIN GRID*/
 .grid {
   display: grid;
-  grid-template-columns: 50px 1fr 50px;
+  grid-template-columns: 20px 1fr 20px;
   grid-template-rows: 30/100fr 52/100fr 28.5/100fr 20/100fr 35/100fr 57.2/100fr 66.3/100fr 89.4/100fr 43.5/100fr 52.2/100fr 52.2/100fr 35/100fr;
   grid-template-areas:
   ". card1 ."
@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
 }
 
@@ -43,17 +43,17 @@
   align-items: center;
   justify-content: center;
 
-  padding: 50px 35px 50px 35px;
+  padding: 50px 15px;
 }
 
 .card3 {
   grid-area: card3;
-  padding: 50px 35px;
+  padding: 50px 15px;
 }
 
 .card4 {
   grid-area: card4;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 
 .card5 {
   grid-area: card5;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
 
 .card5bis {
   grid-area: card5bis;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -81,7 +81,7 @@
 
 .card6 {
   grid-area: card6;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +90,7 @@
 
 .card7 {
   grid-area: card7;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@
 
 .card8 {
   grid-area: card8;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +108,7 @@
 
 .card9 {
   grid-area: card9;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +117,7 @@
 
 .card10 {
   grid-area: card10;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +126,7 @@
 
 .card11 {
   grid-area: card11;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,7 +243,7 @@ p{
 }
 
 .wireframes img {
-  height: 180px;
+  height: 160px;
 }
 
 .wireframes p {
@@ -261,25 +261,25 @@ img {
 }
 
 .color {
-  height: 85px;
+  height: 80px;
   margin-bottom: 20px;
 }
 
 .fontstyle {
-  height: 85px;
+  height: 80px;
   margin-bottom: 20px;
 }
 
 .buttons {
-  height: 22px;
+  height: 20px;
 }
 
 .card6 img, .card7 img, .card9 img, .card10 img {
-  height: 210px;
+  height: 190px;
 }
 
 .card8 img {
-  height: 510px;
+  height: 490px;
 }
 
 /*END IMAGE*/
@@ -503,6 +503,10 @@ transform: translate(0, -5px);}
   #tag_left {
     margin-right: 16px;
   }
+
+  #card {
+    padding: 50px 35px;
+  }
 }
 
 @media screen and (min-width:1290px) and (max-width:1600px) {
@@ -605,6 +609,10 @@ transform: translate(0, -5px);}
 
   #tag_left {
     margin-right: 16px;
+  }
+
+  #card {
+    padding: 50px 35px;
   }
 }
 
@@ -709,6 +717,10 @@ transform: translate(0, -5px);}
   #tag_left {
     margin-right: 16px;
   }
+
+  #card {
+    padding: 50px 35px;
+  }
 }
 
 @media screen and (min-width:880px) and (max-width:1024px) {
@@ -757,6 +769,10 @@ transform: translate(0, -5px);}
     height: 27px;
   }
   /*END IMAGES*/
+
+  #card {
+    padding: 50px 35px;
+  }
 }
 
 @media screen and (min-width:700px) and (max-width:880px) {

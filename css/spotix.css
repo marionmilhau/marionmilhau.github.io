@@ -6,7 +6,7 @@
 /*MAIN GRID*/
 .grid {
   display: grid;
-  grid-template-columns: 50px 1fr 50px;
+  grid-template-columns: 20px 1fr 20px;
   grid-template-rows: 30/100fr 52/100fr 28.5/100fr 43.3/100fr 57.2/100fr 66.3/100fr 89.4/100fr 43.5/100fr 52.2/100fr 52.2/100fr 35/100fr;
   grid-template-areas:
   ". card1 ."
@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
 }
 
@@ -46,7 +46,7 @@
 
 .card3 {
   grid-area: card3;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
 
 .card4 {
   grid-area: card4;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@
 
 .card5 {
   grid-area: card5;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -77,7 +77,7 @@
 
 .card6 {
   grid-area: card6;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -87,7 +87,7 @@
 
 .card7 {
   grid-area: card7;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@
 
 .card8 {
   grid-area: card8;
-  padding: 50px 35px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +106,7 @@
 
 .card9 {
   grid-area: card9;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -116,7 +116,7 @@
 
 .card11 {
   grid-area: card11;
-  padding: 50px 35px;
+  padding: 50px 15px;
 
   display: flex;
   flex-direction: column;
@@ -316,7 +316,7 @@ img {
 }
 
 .element2 {
-  height: 70px;
+  height: 60px;
 }
 
 
@@ -444,6 +444,10 @@ img {
   .description {
     text-align: center;
   }
+
+  #card {
+    padding: 50px 35px;
+  }
 }
 
 @media screen and (min-width:1290px) and (max-width:1600px) {
@@ -510,6 +514,10 @@ img {
   }
   .description {
     text-align: center;
+  }
+
+  #card {
+    padding: 50px 35px;
   }
 }
 
@@ -578,6 +586,10 @@ img {
   }
   .description {
     text-align: center;
+  }
+
+  #card {
+    padding: 50px 35px;
   }
 }
 
