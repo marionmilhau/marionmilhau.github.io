@@ -287,12 +287,12 @@ a{
   align-self: flex-start;
   color: white;
   margin: 20px 0px 0px 0px;
-  padding: 15px 25px;
+  padding: 0px 25px;
 }
 
 #back {
   color: white;
-  padding: 15px 25px;
+  padding: 0px 25px;
 }
 
 .button:hover {
@@ -448,6 +448,10 @@ img {
   #card {
     padding: 50px 35px;
   }
+
+  #seemore, #back {
+    padding: 15px 25px;
+  }
 }
 
 @media screen and (min-width:1290px) and (max-width:1600px) {
@@ -518,6 +522,10 @@ img {
 
   #card {
     padding: 50px 35px;
+  }
+
+  #seemore, #back {
+    padding: 15px 25px;
   }
 }
 
@@ -590,6 +598,10 @@ img {
 
   #card {
     padding: 50px 35px;
+  }
+
+  #seemore, #back {
+    padding: 15px 25px;
   }
 }
 
